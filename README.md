@@ -1,43 +1,82 @@
-# 🎵 Rainmeter Music Player Skin - Modern Circular Album Art
+# 🎵 Rainmeter Now Playing Skin — Circular Mask UI (MOND Replacement)
 
-This is a clean, modern Rainmeter skin that displays your currently playing track using the **WebNowPlaying** plugin. It includes a circular masked album cover, track info, time progress bar, and playback controls.
-
-## 🖼️ Preview
-
-![preview](https://i.imgur.com/y3jokui.png) <!-- Optional: add a preview screenshot here -->
+This is a modern and minimal Rainmeter skin that **replaces the default MOND player** with a version featuring a **circular masked album cover**, animated progress bar, playback controls, and track info — powered by **WebNowPlaying**.
 
 ---
 
-## 📦 Features
+## 🖼 Preview
 
-- Circular album art (via custom mask)
-- Track title, artist, and album display
-- Progress bar with remaining time
-- Previous, Play/Pause, and Next buttons
-- Scroll to resize scale
-- Fully customizable with a `Variables.inc` file
+![Preview](https://i.imgur.com/y3jokui.png)  
+*(You can replace this with your own preview)*
 
 ---
 
-## 🔧 Requirements
+## 📁 Included Files
 
-- ✅ [Rainmeter](https://www.rainmeter.net/) (latest version)
-- ✅ [WebNowPlaying plugin](https://github.com/tjhrulz/WebNowPlaying)  
-  - Works with: Spotify, YouTube (in browser), etc.
+- `player.ini` → The updated MOND skin config file.
+- `Mask.png` → The circular mask image for album art.
 
 ---
 
-## 📥 Installation
+## ✅ Requirements
 
-### 1. Download & Install WebNowPlaying
+- ✅ [Rainmeter](https://www.rainmeter.net/)  
+- ✅ [MOND Skin for Rainmeter](https://visualskins.com/skin/MOND)  
+- ✅ [WebNowPlaying Plugin](https://github.com/tjhrulz/WebNowPlaying)  
+- ✅ A media player supported by WebNowPlaying (Spotify, Chrome, Firefox, etc.)
 
-1. Download the latest **WebNowPlaying** plugin from the [official GitHub](https://github.com/tjhrulz/WebNowPlaying/releases).
-2. Install the plugin.
-3. For **browser playback** (e.g. YouTube, Spotify Web):
-   - Install the [WebNowPlaying Companion Extension](https://chrome.google.com/webstore/detail/webnowplaying-companion/jfpmbokkdeapjommajdfmmheiiakdlgo) for Chrome or Firefox.
-   - Make sure it's **enabled and running** while using this skin.
+---
 
-### 2. Clone or Download This Repository
+## 🔧 Installation Instructions
 
-```bash
-git clone https://github.com/Amir-78/Rainmeter-NowPlaying-Circle.git
+1. **Install Rainmeter**, the **MOND skin**, and the **WebNowPlaying plugin** if you haven't already.
+
+2. **Replace the MOND Player:**
+
+   - Overwrite the default MOND player config file with this one:
+     ```
+     Replace:
+     C:\Users\{USER}\Documents\Rainmeter\Skins\MOND\Player\player.ini
+     ```
+     *(Make a backup first if you want to restore later)*
+
+3. **Add the Mask Image:**
+
+   - Place `Mask.png` into:
+     ```
+     C:\Users\{USER}\Documents\Rainmeter\Skins\MOND\@Resources
+     ```
+
+4. **Refresh Rainmeter:**
+
+   - Right-click Rainmeter in the system tray and select **"Refresh all"**
+   - Or go to the **Rainmeter Manager**, locate `MOND > Player`, and click **"Refresh"** or **"Load"**
+
+---
+
+## 🛠 Features
+
+- Circular album art via `Mask.png`
+- Animated and draggable progress bar
+- Previous / Play / Pause / Next buttons
+- Scrolling to resize the player (`Scale`)
+- Displays song title, artist, time left
+
+---
+
+## 🎨 Customization
+
+- Edit `player.ini` directly to tweak fonts, sizes, positions, and colors.
+- Change `Scale` using mouse scroll while hovering over the player.
+
+---
+
+## 🖤 Credits
+
+- Original UI: [MOND Rainmeter Skin](https://visualskins.com/skin/MOND)
+- Media data via: [WebNowPlaying Plugin](https://github.com/tjhrulz/WebNowPlaying)
+- Modified by: [YourGitHubUsername]
+
+---
+
+> If you like this mod, consider giving a ⭐ to support or fork it!
