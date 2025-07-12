@@ -75,7 +75,7 @@ This is a modern and minimal Rainmeter skin that **replaces the default MOND pla
 
 - Original UI: [MOND Rainmeter Skin](https://visualskins.com/skin/MOND)
 - Media data via: [WebNowPlaying Plugin](https://github.com/tjhrulz/WebNowPlaying)
-- Modified by: [YourGitHubUsername]
+- Modified by: Amir-78
 
 ---
 
